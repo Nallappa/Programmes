@@ -1,0 +1,20 @@
+{
+  "name": "testprogrames",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc test.ts && node test.js",
+    "start1": "tsc practice.ts && node practice.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.14.14",
+    "xlsx": "^0.16.9"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}
